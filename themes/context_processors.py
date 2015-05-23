@@ -9,7 +9,7 @@ def _default_theme(request):
         try:
             theme = Theme.objects.get_list_by_request(request)[0]
         except IndexError:
-            raise Http404('You must create a theme in the system.')
+            theme = None
 
     return theme 
 
