@@ -21,7 +21,7 @@ classifiers = meta_files['CLASSIFIERS.txt'].split('\n')
 classifiers.remove('')
 
 setup(name='django-themes',
-      version='0.1',
+      version='0.2',
       description='A powerful application that can be used to develop themes to completely reskin your django apps.',
       long_description=meta_files['README.md'],
       classifiers=classifiers,
